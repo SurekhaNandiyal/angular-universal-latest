@@ -1,0 +1,18 @@
+<header>
+  <div class="container topBottom-padding header-wrapper">
+    <span class="header-text side-padding"><a routerLink="/">Furry potato</a></span>
+    <nav class="header-nav">
+      <ul>
+        <li *ngFor="let link of links">
+          <a
+            routerLink="{{ link.url }}"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            (click)="navOpen = !navOpen"
+            >{{ link.name }}</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

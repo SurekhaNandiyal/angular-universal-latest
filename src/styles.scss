@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: 'Pridi-Regular';
+  src: url('~/assets/fonts/Pridi-Regular.eot');
+  src: url('~/assets/fonts/Pridi-Regular.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Pridi-Regular.woff2') format('woff2'),
+    url('~/assets/fonts/Pridi-Regular.woff') format('woff'),
+    url('~/assets/fonts/Pridi-Regular.ttf') format('truetype'),
+    url('~/assets/fonts/Pridi-Regular.svg#Pridi-Regular') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.0125em;
+}
+@font-face {
+  font-family: 'Pridi-SemiBold';
+  src: url('~/assets/fonts/Pridi-SemiBold.eot');
+  src: url('~/assets/fonts/Pridi-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Pridi-SemiBold.woff2') format('woff2'),
+    url('~/assets/fonts/Pridi-SemiBold.woff') format('woff'),
+    url('~/assets/fonts/Pridi-SemiBold.ttf') format('truetype'),
+    url('~/assets/fonts/Pridi-SemiBold.svg#Pridi-SemiBold') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.0125em;
+}
+
+body {
+  margin: 0;
+  font-family: Pridi-Regular;
+  font-size: 23px;
+  color: #2d2828;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.topBottom-padding-large {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.topBottom-padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
