@@ -36,6 +36,9 @@ body {
   max-width: 100%;
 }
 
+.text-center {
+  text-align: center;
+}
 .topBottom-padding-large {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -43,4 +46,8 @@ body {
 .topBottom-padding {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.side-padding {
+  padding-left: 40px;
+  padding-right: 10px;
 }

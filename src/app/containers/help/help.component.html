@@ -1,3 +1,18 @@
 <div class="container topBottom-padding-large">
+  <h2 class="text-center">Frequently asked questions</h2>
   <section class="help_image"></section>
+  <section class="container topBottom-padding-large">
+    <div *ngFor="let faq of faqTemplate">
+      <div class="side-padding topBottom-padding">
+        <div class="faq-question">{{ faq.question }}</div>
+        <div class="faq-answer">{{ faq.answer }}</div>
+      </div>
+    </div>
+  </section>
+  <img
+    src="../../../assets/icons/scroll_top.png"
+    alt="Go Up"
+    (click)="scrollToTop()"
+    style="width: 15%;"
+  />
 </div>

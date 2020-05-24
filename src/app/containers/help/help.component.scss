@@ -1,7 +1,17 @@
 .help_image {
+  margin-left: auto;
+  margin-right: auto;
   min-height: 440px;
-  width: 75%;
+  width: 70%;
   background-size: cover;
   background-position: center top;
-  background-image: url('../../../assets/images/dog1.png');
+  background-image: url('../../../assets/images/help_dog.png');
+}
+
+.faq-question {
+  font-size: 20px;
+}
+
+.faq-answer {
+  font-size: 15px;
 }
