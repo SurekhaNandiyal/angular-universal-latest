@@ -25,7 +25,7 @@
     "@angular/platform-server": "~9.1.9",
     "@angular/router": "~9.1.9",
     "@nguniversal/express-engine": "^9.1.1",
-    "express": "^4.15.2",
+    "express": "^4.17.3",
     "prettier": "^2.0.5",
     "rxjs": "~6.5.5",
     "tslib": "^1.10.0",
